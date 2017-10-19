@@ -38,15 +38,15 @@ def sum_array(arr)
   arr.inject(:+)
 end
 
-def add_s(arr)
-  arr.each_with_index.map do |word, idx|
-    if idx == 1
-      word
-    else
-      word + "s"
-    end
-  end
-end
+# def add_s(arr)
+#   arr.each_with_index.map do |word, idx|
+#     if idx == 1
+#       word
+#     else
+#       word + "s"
+#     end
+#   end
+# end
 
 def add_s(arr)
   arr.collect do |word|
