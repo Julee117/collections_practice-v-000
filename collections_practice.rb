@@ -47,3 +47,13 @@ def add_s(arr)
     end
   end
 end
+
+def add_s(arr)
+  arr.collect do |word|
+    if array[1]
+      word
+    else
+      word + "s"
+    end
+  end 
+end
